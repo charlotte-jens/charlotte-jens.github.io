@@ -1,35 +1,76 @@
-- question: What should I wear?
+- question: Wo findet die Feier statt?
   answer: |
-    We are confident it will be hot and humid in June. Please dress accordingly. No need for a tux or ball gown. Dress pants and a collared shirt or a casual dress will be just fine.
+    Gutshof Rethmar, Guttsstraße 16, 31319 Rethmar
 
-- question: How do I get to the venue?
+- question: Wie reise ich an und wo kann ich parken?
   answer: |
-    There is a map on the <a href="../details">details page</a>.
+    Für Gäste von weiter weg empfehlen wir den Flug nach Hannover (HAJ) und dann weiter per Taxi zum Hotel oder direkt zum Gutshof. Alternativ geht es mit dem Zug bis zum Hannover Hauptbahnhof. Der Gutshof bietet selbst große Parkflächen, auch mit E-Lademöglichkeit.
 
-- question: Can I bring a date?
+- question: Gibt es einen Fotografen?
   answer: |
-    As much as we would love to have everyone, because of venue limitations, please only bring who was addressed on your invitation. If you have a question about this, feel free to contact us.
+    Ja! Die Fotografin Britta ist für die Trauung sowie die Gruppen- und Familienfotos engagiert.
 
-- question: When is the RSVP deadline?
+- question: Was erwartet uns am Tag?
   answer: |
-    Details coming soon. You can RSVP directly on this site!
+    Der Tag wird gespickt sein mit Highlights wie der Cocktailhour — lasst euch überraschen!
 
-- question: What time should I arrive?
+- question: Wie lange seid ihr schon zusammen?
   answer: |
-    Arriving 15-20 minutes early will give you plenty of time to get a seat.
+    2781 Tage bis zu unserem Hochzeitstag.
 
-- question: Will food be served?
+- question: Gibt es ein gemeinsames Frühstück am Sonntag?
   answer: |
-    Yes! Details coming soon.
+    Ja! Alle Gäste, die im ApartHotel in Sehnde übernachten, sind herzlich zum gemeinsamen Sonntagsfrühstück eingeladen.
 
-- question: Will there be dancing?
+- question: Was wünscht ihr euch als Geschenk?
   answer: |
-    Absolutely! Make sure to fill out the song request option when you RSVP.
+    Wir freuen uns über einen Beitrag zur Einrichtung unseres ersten gemeinsamen Zuhauses — Geldgeschenke sind herzlich willkommen.
 
-- question: Can I take pictures?
+- question: Brauche ich eine Jacke?
   answer: |
-    Please no pictures during the ceremony, but take as many as you'd like during the reception!
+    Ja, bitte bringt für die kühleren Abendstunden im Park eine Jacke mit.
 
-- question: What if I have a question not listed here?
+- question: Gibt es Kuchen?
   answer: |
-    Feel free to contact the bride or the groom.
+    Es wird ein buntes Kuchenbuffet geben! Wer einen Kuchen beisteuern möchte, darf sich gerne bei Charlotte melden, damit wir es koordinieren können.
+
+- question: Und Luftballons?
+  answer: |
+    Luftballons würden wir aus Liebe zur Natur gerne vermeiden.
+
+- question: Wie lange wird gefeiert?
+  answer: |
+    Der Gutshof ermöglicht ein langes Feiern — tanzen bis in den Morgen und Drinks am Teich sind eingeplant.
+
+- question: Wo liegt Rethmar genau?
+  answer: |
+    Rethmar ist ein idyllischer Ort in Sehnde, Niedersachsen, mit etwa 2.150 Einwohnern — ruhig, grün und perfekt für eine Hochzeitsfeier.
+
+- question: Wie komme ich nach der Feier zurück ins Hotel?
+  answer: |
+    Es werden Taxis organisiert, die euch nach der Feier sicher zurück ins Hotel bringen.
+
+- question: Wann ist eure standesamtliche Trauung?
+  answer: |
+    Unsere standesamtliche Trauung findet bereits am 07. Juni in unserem Herzensort Stockholm im engsten Kreis statt.
+
+- question: An wen kann ich mich bei Fragen wenden?
+  answer: |
+    Unsere Trauzeugen Jan Philipp, Luisa und Zoe helfen gerne bei Fragen und Ideen weiter — oder ihr wendet euch direkt an uns!
+
+- question: Wo kann ich übernachten?
+  answer: |
+    Wir haben Zimmer im ApartHotel Sehnde reserviert. Die Preise pro Nacht (inkl. Frühstück) sind wie folgt:
+    <ul>
+      <li>Doppelzimmer: 90 €</li>
+      <li>Dreibettzimmer: 110 €</li>
+      <li>Vierbettzimmer: 130 €</li>
+    </ul>
+
+- question: Gibt es vegetarische oder vegane Optionen?
+  answer: |
+    Ja! Bitte gebt eure Ernährungspräferenzen in der Teilnahmeumfrage an.
+
+- question: Kann ich mit dem Wohnwagen oder Wohnmobil kommen?
+  answer: |
+    Ja, auf dem Gelände des Gutshofs steht ein Stellplatz für Wohnwagen und Wohnmobile zur Verfügung.
