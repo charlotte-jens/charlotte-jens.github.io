@@ -1,16 +1,23 @@
+hero_image: assets/img/flowers.jpg
+hero_position: center center
+
 theme:
   primary_color: '#d98560'
 
 rsvp:
-  use_code: false
+  use_code: true
+  code: 1234
+  code_md5: 81dc9bdb52d04dc20036dbd8313ed055
   yes_text: I'll be there
   no_text: I can't make it
+  no_extra_guests_message: As much as we would love to have everyone, please only include guests that were listed on your invitation
   submit_text: RSVP
   cancel_text: Cancel
   yes_modal_title: Thank You!
   no_modal_title: Thank You!
-  yes_modal_body: We're so glad you'll be there!
+  yes_modal_body: We're so glad you'll be there to celebrate with us!
   no_modal_body: We really wish you could have made it, but we still love you.
+  code_location: You can find your RSVP code on your invitation.
 
   song_text: What songs will get you dancing?
   leave_a_message_text: Leave a message for the bride and groom.

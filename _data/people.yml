@@ -1,2 +1,8 @@
-her_side: []
-his_side: []
+her_side:
+  - name: Bridesmaid One
+    role: Bridesmaid
+    description: Charlotte's Friend
+his_side:
+  - name: Groomsman One
+    role: Groomsman
+    description: Jens' Friend
