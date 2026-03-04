@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
+gem "jekyll-theme-easy-wedding"
+gem "webrick" # required for local preview with Ruby 3.x
