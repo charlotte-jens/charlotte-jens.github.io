@@ -1,6 +1,6 @@
-hero_image: assets/img/CSI_5026-1.jpg
+hero_image: /assets/img/CSI_5026-1.jpg
 hero_position: center center
-mobile_hero_image: assets/img/CSI_5026-1.jpg
+mobile_hero_image: /assets/img/CSI_5026-1.jpg
 mobile_hero_position: center center
 
 theme:
