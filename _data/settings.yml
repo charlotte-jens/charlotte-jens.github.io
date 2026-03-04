@@ -2,7 +2,8 @@ hero_image: assets/img/CSI_5026-1.jpg
 hero_position: center center
 
 theme:
-  primary_color: '#d98560'
+  primary_color: '#c4a0a0'
+  secondary_color: '#9e7070'
 
 rsvp:
   use_code: true
