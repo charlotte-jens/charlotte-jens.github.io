@@ -1,0 +1,31 @@
+# Site settings
+remote_theme: cnorick/jekyll-theme-easy-wedding
+title: Charlotte & Jens
+url: https://charlotte-jens.github.io
+description: "We're getting married and can't wait to celebrate with you!"
+baseurl: ""
+
+plugins:
+  - jekyll-remote-theme
+
+collections:
+  stories:
+    sort_by: order
+  banners:
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: "photos/"
+    values:
+      image: true
+  - scope:
+      type: banners
+    values:
+      layout: banner
+
+# Build settings
+markdown: kramdown
+permalink: pretty

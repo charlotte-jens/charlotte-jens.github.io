@@ -1,0 +1,14 @@
+- name: Wedding Ceremony
+  main_event: true
+  date: TBD
+  attire: TBD
+  description: Details coming soon!
+  location:
+    venue_name: TBD
+
+- name: Reception
+  date_alt: Immediately following the ceremony
+  attire: TBD
+  description: Details coming soon!
+  location:
+    venue_name: TBD

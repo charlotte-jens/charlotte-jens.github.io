@@ -1,0 +1,21 @@
+theme:
+  primary_color: '#d98560'
+
+rsvp:
+  use_code: false
+  yes_text: I'll be there
+  no_text: I can't make it
+  submit_text: RSVP
+  cancel_text: Cancel
+  yes_modal_title: Thank You!
+  no_modal_title: Thank You!
+  yes_modal_body: We're so glad you'll be there!
+  no_modal_body: We really wish you could have made it, but we still love you.
+
+  song_text: What songs will get you dancing?
+  leave_a_message_text: Leave a message for the bride and groom.
+
+people:
+  families_header: Our Families
+  families_text: We would be nothing if it wasn't for the love and support of our wonderful families.
+  wedding_party_header: Wedding Party
