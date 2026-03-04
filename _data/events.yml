@@ -15,19 +15,12 @@
 
 - name: Wedding Ceremony
   main_event: true
-  date: 2021-04-03 17:00:00 −04:00
-  endDate: 2021-04-03 21:00:00 -04:00
+  date: 2026-08-15 14:00:00 +02:00
+  endDate: 2026-08-15 23:59:00 +02:00
   attire: snappy casual
   description: Our wedding ceremony will be the perfect blend of our traditions. Please arrive at least 10 minutes prior to the start of the ceremony in order to find your seat. We ask that you please ensure that your cell phones are off and out of sight for the duration of the ceremony.
   location:
-    address: 640 Pansy Hill Rd
-    city: Harriman
-    state: TN
-    long_state: Tennessee
-    zip: 37748
-    coordinates: 41.911652,-87.641253
-    google_maps_url: https://www.google.com/maps/place/St+Michael+in+Old+Town/@41.912635,-87.6408956,15z/data=!4m2!3m1!1s0x0:0xe227f2c7eb743c04
-    venue_name:
+    venue_name: Gutshof Rethmar
   calendar_description: We can't wait to see you on the day of the wedding!
 
 - name: Reception
