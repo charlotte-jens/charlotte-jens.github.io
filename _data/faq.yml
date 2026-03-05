@@ -26,6 +26,13 @@
   answer_en: |
     The hotel and venue are only a few kilometres apart, and taxis will be available to bring you safely back to the hotel when your shoes are danced through. Feel free to leave your car at the hotel.
 
+- question: "Trauzeugen"
+  question_en: "Best Men & Women"
+  answer: |
+    Für Fragen und Anliegen meldet euch gerne bei unseren reizenden Trauzeugen:<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul><p>
+  answer_en: |
+    For questions and requests, please get in touch with our lovely witnesses:<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul><p>
+
 - question: "Dresscode"
   question_en: "Dress Code"
   answer: |
@@ -74,13 +81,6 @@
     Unsere Trauzeugen helfen euch bei Fragen und Anregungen gerne weiter.
   answer_en: |
     Our witnesses will be happy to help with any questions or suggestions.
-
-- question: "Trauzeugen"
-  question_en: "Best Men & Women"
-  answer: |
-    Für Fragen und Anliegen meldet euch gerne bei unseren reizenden Trauzeugen:<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul><p>
-  answer_en: |
-    For questions and requests, please get in touch with our lovely witnesses:<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul><p>
 
 - question: "Warum Rethmar? "
   question_en: "Why Rethmar?"

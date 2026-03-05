@@ -71,10 +71,10 @@
     li.style.cssText = 'display:flex;align-items:center;padding:0 8px;';
     li.innerHTML =
       '<button class="lang-toggle-btn" data-lang="de" onclick="window.setWeddingLang(\'de\')"' +
-        ' style="background:none;border:none;cursor:pointer;font-size:13px;letter-spacing:1px;padding:2px 4px;color:#c4a0a0;">DE</button>' +
-      '<span style="color:#c4a0a0;margin:0 2px;">|</span>' +
+        ' style="background:none;border:none;cursor:pointer;font-size:13px;letter-spacing:1px;padding:2px 4px;color:inherit;">DE</button>' +
+      '<span style="color:inherit;margin:0 2px;">|</span>' +
       '<button class="lang-toggle-btn" data-lang="en" onclick="window.setWeddingLang(\'en\')"' +
-        ' style="background:none;border:none;cursor:pointer;font-size:13px;letter-spacing:1px;padding:2px 4px;color:#c4a0a0;">EN</button>';
+        ' style="background:none;border:none;cursor:pointer;font-size:13px;letter-spacing:1px;padding:2px 4px;color:inherit;">EN</button>';
     navList.appendChild(li);
   }
 
