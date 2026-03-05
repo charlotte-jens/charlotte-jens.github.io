@@ -1,6 +1,11 @@
 ---
 order: 0
 ---
-## Unsere Geschichte
+Liebe Familie, liebe Freunde,
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+wir heiraten und möchten diesen besonderen Anlass gerne mit euch feiern!
+Auf dieser Seite findet ihr alle wichtigen Informationen rund um unsere Hochzeit.
+
+Wir freuen uns auf euch.
+
+*Charlotte & Jens*

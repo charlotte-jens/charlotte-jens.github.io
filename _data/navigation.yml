@@ -1,8 +1,6 @@
 - name: Unsere Hochzeit
   link: /#ourstory
-- name: Ablauf
-  link: /celebrations
-- name: Location
+- name: Location & Ablauf
   link: /location
 - name: People
   link: /people
