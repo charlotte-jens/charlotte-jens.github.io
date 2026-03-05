@@ -1,9 +1,15 @@
 (function () {
   var navTranslations = {
-    '/#ourstory': { de: 'Unsere Hochzeit', en: 'Our Story' },
+    '/#ourstory': { de: 'Unsere Hochzeit', en: 'Our Wedding' },
     '/location':  { de: 'Location & Ablauf', en: 'Venue & Schedule' },
     '/faq':       { de: 'Details', en: 'Details' },
     '/rsvp':      { de: 'Teilnahme', en: 'Attendance' }
+  };
+
+  var pageTitles = {
+    '/rsvp':     { de: 'Teilnahme', en: 'Attendance' },
+    '/location': { de: 'Location & Ablauf', en: 'Venue & Schedule' },
+    '/faq':      { de: 'Details', en: 'Details' }
   };
 
   var placeholders = {
@@ -16,7 +22,7 @@
     en: {
       telefon: 'Phone',
       dietary: 'Dietary requirements (allergies, vegetarian etc.)',
-      song:    'I love to dance to ...',
+      song:    'Songs that get my hips moving',
       code:    'Invitation code *'
     }
   };
@@ -55,6 +61,13 @@
     document.querySelectorAll('.lang-toggle-btn').forEach(function (btn) {
       btn.classList.toggle('lang-active', btn.dataset.lang === lang);
     });
+
+    // Update page title
+    var path = window.location.pathname.replace(/\/$/, '');
+    var titleKey = Object.keys(pageTitles).find(function (k) {
+      return path === k || path.endsWith(k);
+    });
+    if (titleKey) document.title = pageTitles[titleKey][lang];
 
     localStorage.setItem('weddingLang', lang);
   }
