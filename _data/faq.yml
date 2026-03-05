@@ -1,81 +1,63 @@
-- question: "A — Adresse"
+- question: "Adresse der Feier"
   answer: |
-    Gutshof Rethmar, Guttsstraße 16, 31319 Rethmar
+    Gutshof Rethmar, Gutsstraße 16, 31319 Sehnde / Rethmar
 
-- question: "A — Anreise und Parken"
+- question: "Anreise"
   answer: |
-    Für unsere weitangereisten Gäste ist ein Flug nach Hannover (HAJ) möglich. Von dort aus empfehlen wir euch ein Taxi direkt zum Hotel bzw. zur Feierlocation in Rethmar.<br>Alternativ kann auch die Bahn zum Hannover Hauptbahnhof genommen werden. Von dort aus empfehlen wir euch ein Taxi direkt zum Hotel bzw. zur Feierlocation in Rethmar.<br>Der Gutshof bietet selbst große Parkflächen auch mit E-Lademöglichkeit.
+    Für unsere weitangereisten Gäste ist ein Flug nach Hannover (HAJ) möglich. Von dort aus empfehlen wir euch ein Taxi direkt zum Hotel bzw. zur Feierlocation in Rethmar.<br>Alternativ kann auch die Bahn zum Hannover Hauptbahnhof genommen werden. Von dort aus empfehlen wir euch ebenfalls ein Taxi.<br>Der Gutshof bietet selbst große Parkflächen auch mit E-Lademöglichkeit.
 
-- question: "B — Bilder"
+- question: "Unterkunft"
   answer: |
-    Während der Trauung, sowie für Gruppen- und Familienbilder haben wir die hervorragende Fotografin Britta engagiert. Bitte genießt also den Tag und freut euch auf unbeschwerte Eindrücke im Anschluss.
+    Aufgrund der Nähe zu Hannover und Sehnde gibt es einige Unterkünfte in der Region. Da sich viele kennen und auch am nächsten Morgen noch ein gemeinsames Frühstück stattfindet, haben wir ein Kontingent im ApartHotel Sehnde reserviert:<ul><li>Doppelzimmer inkl. Frühstück — 90 €/Nacht</li><li>Dreibettzimmer inkl. Frühstück — 110 €/Nacht</li><li>Vierbettzimmer inkl. Frühstück — 130 €/Nacht</li></ul>
 
-- question: "C — Cocktails"
-  answer: |
-    Der Tag wird gespickt sein mit Highlights wie der Cocktailhour. Genießt unsere liebsten Cocktails am späten Abend.
-
-- question: "D — Dauer unserer Beziehung bis zum Tag der Hochzeit"
-  answer: |
-    2781 Tage
-
-- question: "F — Frühstück"
-  answer: |
-    Mit allen Gästen, die im ApartHotel in Sehnde unterkommen und Lust haben, möchten wir gerne am Sonntagmorgen gemeinsam frühstücken.
-
-- question: "G — Geschenke"
-  answer: |
-    Wir freuen uns sehr, dass so viele unserer Freunde und Familie von überall her anreisen, um diesen besonderen Tag gemeinsam zu feiern! Falls ihr uns zusätzlich etwas schenken mögt, freuen wir uns über einen Obolus, damit wir uns unser erstes gemeinsames Zuhause schön machen können.
-
-- question: "I — Ideen, Spiele, Beiträge"
-  answer: |
-    Unsere Trauzeugen helfen euch bei Fragen und Anregungen gerne weiter. (Mehr Infos dazu unter T — Trauzeugen)
-
-- question: "J — Jacken"
-  answer: |
-    Da unsere Sommerhochzeit hoffentlich viel im malerischen Gutspark stattfinden wird, nehmt gerne eine Jacke mit, falls es am Abend kühl wird.
-
-- question: "K — Kuchen"
-  answer: |
-    Da wir uns ein buntes Kuchenbuffet wünschen, freuen wir uns über alle, die dazu etwas beitragen möchten. Zur Koordination meldet euch bitte bei Kuchenliebhaberin Nr. 1 Charlotte direkt: sprengel.charlotte[at]gmail.com
-
-- question: "L — Luftballons"
-  answer: |
-    Luftballons würden wir aus Liebe zur Natur gerne vermeiden. Nachhaltigkeit liegt uns dabei sehr am Herzen.
-
-- question: "N — Nachtruhe"
-  answer: |
-    Bei der Suche einer Location haben wir extra darauf geachtet, dass uns nichts einschränkt. Wir hoffen, ihr tanzt mit uns bis die Sonne wieder aufgeht — und dann trinken wir noch ein Bier am Gutsteich.
-
-- question: "O — Ort"
-  answer: |
-    Warum Rethmar? Rethmar ist ein idyllischer, ländlicher Ortsteil der Stadt Sehnde in Niedersachsen mit etwa 2.150 Einwohnern und liegt ruhig eingebettet zwischen Feldern, Wiesen und dem Mittellandkanal südöstlich von Hannover. Er liegt damit in der Nähe von Charlottes Heimat Bettrum.
-
-- question: "R — Rückfahrt"
+- question: "Rückfahrt"
   answer: |
     Hotel und Gutshof sind nur wenige Kilometer voneinander entfernt und es werden Taxen bereitstehen, die euch sicher zum Hotel bringen, wenn die Schuhe durchgetanzt sind. Lasst das Auto also gerne am Hotel stehen.
 
-- question: "S — Standesamt"
+- question: "Dresscode"
+  answer: |
+    Elegant und festlich — gerne in Farben, die zu einer Sommerhochzeit passen. Auf große Hüte verzichten wir lieber, damit die Sicht für alle gut bleibt.
+
+- question: "Essen"
+  answer: |
+    Gutes Essen liegt uns sehr am Herzen. Bitte gebt im RSVP an, was ihr gerne esst oder was wir beachten sollen, damit wir dies entsprechend einplanen können (Allergien, vegetarisch, vegan etc.).
+
+- question: "Kuchenbuffet"
+  answer: |
+    Da wir uns ein buntes Kuchenbuffet wünschen, freuen wir uns über alle, die dazu etwas beitragen möchten. Zur Koordination meldet euch bitte bei Kuchenliebhaberin Nr. 1 Charlotte direkt: sprengel.charlotte[at]gmail.com
+
+- question: "Frühstück am Sonntag"
+  answer: |
+    Mit allen Gästen, die im ApartHotel in Sehnde unterkommen und Lust haben, möchten wir gerne am Sonntagmorgen gemeinsam frühstücken.
+
+- question: "Geschenke"
+  answer: |
+    Wir freuen uns sehr, dass so viele unserer Freunde und Familie von überall her anreisen, um diesen besonderen Tag gemeinsam zu feiern! Falls ihr uns zusätzlich etwas schenken mögt, freuen wir uns über einen Obolus, damit wir uns unser erstes gemeinsames Zuhause schön machen können.
+
+- question: "Fotos"
+  answer: |
+    Während der Trauung, sowie für Gruppen- und Familienbilder haben wir die hervorragende Fotografin Britta engagiert. Bitte genießt also den Tag und freut euch auf unbeschwerte Eindrücke im Anschluss.
+
+- question: "Beiträge, Spiele & Ideen"
+  answer: |
+    Unsere Trauzeugen helfen euch bei Fragen und Anregungen gerne weiter.
+
+- question: "Trauzeugen"
+  answer: |
+    Für Fragen und Anliegen meldet euch gerne bei unseren reizenden Trauzeugen:<ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul>
+
+- question: "Ort"
+  answer: |
+    Warum Rethmar? Rethmar ist ein idyllischer, ländlicher Ortsteil der Stadt Sehnde in Niedersachsen mit etwa 2.150 Einwohnern und liegt ruhig eingebettet zwischen Feldern, Wiesen und dem Mittellandkanal südöstlich von Hannover — in der Nähe von Charlottes Heimat Bettrum.
+
+- question: "Standesamtliche Trauung"
   answer: |
     Unsere standesamtliche Trauung wird bereits am 07. Juni an unserem Herzensort Stockholm im engsten Kreis stattfinden.
 
-- question: "T — Trauzeugen"
+- question: "Am Abend"
   answer: |
-    Für Fragen und Anliegen meldet euch gerne bei unseren reizenden Trauzeugen:
-    <ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul>
+    Der Tag wird gespickt sein mit Highlights wie der Cocktailhour. Bei der Suche einer Location haben wir extra darauf geachtet, dass uns nichts einschränkt. Wir hoffen, ihr tanzt mit uns bis die Sonne wieder aufgeht — und dann trinken wir noch ein Bier am Gutsteich.
 
-- question: "U — Unterkunft"
+- question: "Noch ein paar Kleinigkeiten"
   answer: |
-    Aufgrund der Nähe zu Hannover und Sehnde gibt es einige Unterkünfte in der Region. Da sich viele kennen und auch am nächsten Morgen noch ein gemeinsames Frühstück stattfindet, haben wir ein Kontingent im ApartHotel Sehnde reserviert:
-    <ul><li>Doppelzimmer inkl. Frühstück — 90 €/Nacht</li><li>Dreibettzimmer inkl. Frühstück — 110 €/Nacht</li><li>Vierbettzimmer inkl. Frühstück — 130 €/Nacht</li></ul>
-
-- question: "V — Vegetarische / Vegane Optionen"
-  answer: |
-    Bitte gebt in der Teilnahmeumfrage an, was ihr gerne esst, damit wir dies entsprechend einplanen. Gutes Essen ist uns, wie ihr alle wisst, sehr wichtig ;)
-
-- question: "W — Wohnwagen / Wohnmobil"
-  answer: |
-    Hierfür gibt es einen Stellplatz am Gutshof. Falls also jemand gerne diese Möglichkeit nutzen möchte, sprecht uns gerne an.
-
-- question: "X — XY-ungelöst"
-  answer: |
-    Bei Fragen meldet euch gerne bei unseren Trauzeugen oder bei uns direkt.
+    Da unsere Sommerhochzeit hoffentlich viel im malerischen Gutspark stattfinden wird, nehmt gerne eine Jacke mit, falls es am Abend kühl wird.<br>Luftballons würden wir aus Liebe zur Natur gerne vermeiden — Nachhaltigkeit liegt uns sehr am Herzen.<br>Für Wohnwagen und Wohnmobile gibt es einen Stellplatz am Gutshof. Sprecht uns gerne an.<br>Bei weiteren Fragen meldet euch bei unseren Trauzeugen oder direkt bei uns.
