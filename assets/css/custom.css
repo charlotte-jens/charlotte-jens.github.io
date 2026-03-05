@@ -4,7 +4,15 @@
 }
 
 div.faq-answer {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq-question {
+  margin-top: 0.5rem;
+}
+
+div.lang-de, div.lang-en {
+  display: contents;
 }
 
 /* Lang toggle buttons — match nav link appearance */
