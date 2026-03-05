@@ -34,7 +34,6 @@
     // Update nav link text
     document.querySelectorAll('.navbar-nav a').forEach(function (a) {
       var href = a.getAttribute('href') || '';
-      // Strip baseurl if present (ends with known keys)
       var key = Object.keys(navTranslations).find(function (k) {
         return href === k || href.endsWith(k);
       });
@@ -45,19 +44,16 @@
 
     // Update form placeholders
     var t = placeholders[lang];
-    var fields = ['telefon', 'dietary', 'song'];
-    fields.forEach(function (f) {
+    ['telefon', 'dietary', 'song'].forEach(function (f) {
       var el = document.querySelector('[name="' + f + '"]');
       if (el) el.placeholder = t[f];
     });
     var codeEl = document.getElementById('rsvp-code');
     if (codeEl) codeEl.placeholder = t.code;
 
-    // Update toggle button style
+    // Update toggle button active state
     document.querySelectorAll('.lang-toggle-btn').forEach(function (btn) {
-      var active = btn.dataset.lang === lang;
-      btn.style.fontWeight = active ? 'bold' : 'normal';
-      btn.style.opacity   = active ? '1' : '0.5';
+      btn.classList.toggle('lang-active', btn.dataset.lang === lang);
     });
 
     localStorage.setItem('weddingLang', lang);
@@ -70,11 +66,9 @@
     li.className = 'nav-item';
     li.style.cssText = 'display:flex;align-items:center;padding:0 8px;';
     li.innerHTML =
-      '<button class="lang-toggle-btn" data-lang="de" onclick="window.setWeddingLang(\'de\')"' +
-        ' style="background:none;border:none;cursor:pointer;font-size:13px;letter-spacing:1px;padding:2px 4px;color:inherit;">DE</button>' +
-      '<span style="color:inherit;margin:0 2px;">|</span>' +
-      '<button class="lang-toggle-btn" data-lang="en" onclick="window.setWeddingLang(\'en\')"' +
-        ' style="background:none;border:none;cursor:pointer;font-size:13px;letter-spacing:1px;padding:2px 4px;color:inherit;">EN</button>';
+      '<button class="lang-toggle-btn" data-lang="de" onclick="window.setWeddingLang(\'de\')">DE</button>' +
+      '<span class="lang-toggle-sep" style="margin:0 2px;">|</span>' +
+      '<button class="lang-toggle-btn" data-lang="en" onclick="window.setWeddingLang(\'en\')">EN</button>';
     navList.appendChild(li);
   }
 

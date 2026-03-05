@@ -4,7 +4,36 @@
 }
 
 div.faq-answer {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Lang toggle buttons — match nav link appearance */
+.lang-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  color: white;
+  opacity: 0.8;
+}
+.lang-toggle-btn.lang-active {
+  opacity: 1;
+  font-weight: bold;
+}
+.lang-toggle-sep {
+  color: white;
+}
+.navbar.top-nav-collapse .lang-toggle-btn,
+.navbar.is-expanded .lang-toggle-btn {
+  color: var(--primary-color, #c4a0a0);
+}
+.navbar.top-nav-collapse .lang-toggle-sep,
+.navbar.is-expanded .lang-toggle-sep {
+  color: var(--primary-color, #c4a0a0);
 }
 
 /* Increase baseline font size by 2px */
