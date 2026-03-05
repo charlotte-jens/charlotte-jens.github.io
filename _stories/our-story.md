@@ -1,11 +1,4 @@
 ---
 order: 0
 ---
-Liebe Familie, liebe Freunde,
-
-wir heiraten und möchten diesen besonderen Anlass gerne mit euch feiern!
-Auf dieser Seite findet ihr alle wichtigen Informationen rund um unsere Hochzeit.
-
-Wir freuen uns auf euch.
-
-*Charlotte & Jens*
+<div class="lang-de"><p>Liebe Familie, liebe Freunde,</p><p>wir heiraten und möchten diesen besonderen Anlass gerne mit euch feiern!<br>Auf dieser Seite findet ihr alle wichtigen Informationen rund um unsere Hochzeit.</p><p>Wir freuen uns auf euch.</p><p><em>Charlotte &amp; Jens</em></p></div><div class="lang-en"><p>Dear family and friends,</p><p>we are getting married and would love to celebrate this special occasion with you!<br>On this page you will find all the important information about our wedding.</p><p>We look forward to seeing you.</p><p><em>Charlotte &amp; Jens</em></p></div>

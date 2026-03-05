@@ -1,0 +1,18 @@
+<section class="container content-section">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <dl>
+        {% for one in site.data.faq %}
+          <dt><h3 class="faq-question">
+            <span class="lang-de">{{ one.question }}</span>
+            <span class="lang-en">{{ one.question_en | default: one.question }}</span>
+          </h3></dt>
+          <dd><div class="faq-answer">
+            <div class="lang-de">{{ one.answer }}</div>
+            <div class="lang-en">{{ one.answer_en | default: one.answer }}</div>
+          </div></dd>
+        {% endfor %}
+      </dl>
+    </div>
+  </div>
+</section>

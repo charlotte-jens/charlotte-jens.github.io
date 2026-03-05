@@ -6,11 +6,18 @@ image_position: center center
 ---
 
 <section class="container content-section text-center">
-  <h2>Teilnahme</h2>
+  <h2><span class="lang-de">Teilnahme</span><span class="lang-en">Attendance</span></h2>
   <br>
-  <p>Wir freuen uns sehr, diesen besonderen Tag mit euch zu feiern.<br>
-  Bitte gebt uns über das folgende Formular Bescheid, ob ihr dabei sein könnt, und füllt es für jede eingeladene Person (auch Kinder) aus.</p>
-  <p>Wir bitten euch, uns bis zum <strong>31. Mai 2026</strong> Rückmeldung zu geben.</p>
+  <p>
+    <span class="lang-de">Wir freuen uns sehr, diesen besonderen Tag mit euch zu feiern.<br>
+    Bitte gebt uns über das folgende Formular Bescheid, ob ihr dabei sein könnt, und füllt es für jede eingeladene Person (auch Kinder) aus.</span>
+    <span class="lang-en">We are so happy you can join us for this special day.<br>
+    Please use the form below to let us know if you can make it, and fill it in for each invited person (including children).</span>
+  </p>
+  <p>
+    <span class="lang-de">Wir bitten euch, uns bis zum <strong>31. Mai 2026</strong> Rückmeldung zu geben.</span>
+    <span class="lang-en">Please let us know by <strong>31 May 2026</strong>.</span>
+  </p>
   <br>
   <div style="max-width: 600px; margin: 0 auto;">
 
@@ -29,13 +36,18 @@ image_position: center center
         </div>
 
         <div class="form-group" style="margin-top: 24px;">
-          <label style="font-size:18px; font-weight: normal;">Komme zur Hochzeit?</label>
+          <label style="font-size:18px; font-weight: normal;">
+            <span class="lang-de">Komme zur Hochzeit?</span>
+            <span class="lang-en">Attending the wedding?</span>
+          </label>
           <div style="margin-top: 10px;">
             <label style="margin-right: 30px; font-size:18px; font-weight: normal;">
-              <input type="radio" name="attending" value="Ja" required style="margin-right: 6px;">Ja
+              <input type="radio" name="attending" value="Ja" required style="margin-right: 6px;">
+              <span class="lang-de">Ja</span><span class="lang-en">Yes</span>
             </label>
             <label style="font-size:18px; font-weight: normal;">
-              <input type="radio" name="attending" value="Nein" style="margin-right: 6px;">Nein
+              <input type="radio" name="attending" value="Nein" style="margin-right: 6px;">
+              <span class="lang-de">Nein</span><span class="lang-en">No</span>
             </label>
           </div>
         </div>
@@ -50,12 +62,15 @@ image_position: center center
 
         <div class="form-group" style="margin-top: 24px;">
           <input type="text" class="form-control" id="rsvp-code" placeholder="Einladungscode *" style="font-size:18px; padding: 10px 14px;">
-          <div id="rsvp-code-error" style="display:none; color: #a00; margin-top: 8px; font-size: 16px;">Falscher Code. Bitte schaut auf eure Einladungsnachricht.</div>
+          <div id="rsvp-code-error" style="display:none; color: #a00; margin-top: 8px; font-size: 16px;">
+            <span class="lang-de">Falscher Code. Bitte schaut auf eure Einladungsnachricht.</span>
+            <span class="lang-en">Wrong code. Please check your invitation message.</span>
+          </div>
         </div>
 
         <div class="form-group" style="margin-top: 30px;">
           <button type="submit" id="rsvp-submit" class="btn btn-lg" style="background-color: #c4a0a0; color: white; border: none; padding: 12px 40px; font-size: 18px; letter-spacing: 1px;">
-            Absenden
+            <span class="lang-de">Absenden</span><span class="lang-en">Submit</span>
           </button>
         </div>
 
@@ -64,8 +79,11 @@ image_position: center center
       <div id="rsvp-success" style="display:none; padding: 30px 0;">
         <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
           <div style="flex: 1; min-width: 200px; text-align: left;">
-            <h3>Vielen Dank!</h3>
-            <p>Wir haben eure Anmeldung erhalten und freuen uns auf euch!</p>
+            <h3><span class="lang-de">Vielen Dank!</span><span class="lang-en">Thank you!</span></h3>
+            <p>
+              <span class="lang-de">Wir haben eure Anmeldung erhalten und freuen uns auf euch!</span>
+              <span class="lang-en">We have received your registration and look forward to seeing you!</span>
+            </p>
           </div>
           <div style="flex: 1; min-width: 200px;">
             <img src="/assets/img/Ap245.jpg" style="width: 100%; height: auto; border-radius: 4px;" alt="">
@@ -74,7 +92,10 @@ image_position: center center
       </div>
 
       <div id="rsvp-error" style="display:none; color: #a00; margin-top: 16px;">
-        <p>Es ist ein Fehler aufgetreten. Bitte versucht es erneut oder meldet euch direkt bei uns.</p>
+        <p>
+          <span class="lang-de">Es ist ein Fehler aufgetreten. Bitte versucht es erneut oder meldet euch direkt bei uns.</span>
+          <span class="lang-en">An error occurred. Please try again or contact us directly.</span>
+        </p>
       </div>
 
   </div>
@@ -94,7 +115,7 @@ image_position: center center
     var form = event.target;
     var btn = document.getElementById('rsvp-submit');
     btn.disabled = true;
-    btn.textContent = 'Wird gesendet...';
+    btn.textContent = window.weddingLang === 'en' ? 'Sending...' : 'Wird gesendet...';
 
     var params = new URLSearchParams(new FormData(form));
 
@@ -108,7 +129,8 @@ image_position: center center
       document.getElementById('rsvp-success').style.display = 'block';
     }).catch(function () {
       btn.disabled = false;
-      btn.textContent = 'Absenden';
+      btn.innerHTML = '<span class="lang-de">Absenden</span><span class="lang-en">Submit</span>';
+      if (window.setWeddingLang) window.setWeddingLang(window.weddingLang || 'de');
       document.getElementById('rsvp-error').style.display = 'block';
     });
   }
