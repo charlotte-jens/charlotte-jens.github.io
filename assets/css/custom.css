@@ -6,3 +6,13 @@ body {
 p, li, td {
   font-size: 18px;
 }
+
+.billboard {
+  height: 360px;
+}
+
+@media (min-width: 767px) {
+  .billboard {
+    height: 480px;
+  }
+}
