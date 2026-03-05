@@ -11,6 +11,10 @@ dd p:empty {
   display: none;
 }
 
+dd p {
+  margin-bottom: 2rem;
+}
+
 .billboard {
   height: 360px;
 }
