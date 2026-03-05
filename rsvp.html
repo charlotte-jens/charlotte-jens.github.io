@@ -1,0 +1,95 @@
+---
+layout: info
+title: RSVP
+billboard_image: assets/img/CSI_5013-banner.png
+image_position: center center
+---
+
+<section class="container content-section text-center">
+  <h2>RSVP</h2>
+  <br>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+      <form id="rsvp-form" onsubmit="submitRSVP(event)">
+
+        <div class="form-group">
+          <input type="text" class="form-control" name="name" placeholder="Name *" required style="font-size:18px; padding: 10px 14px;">
+        </div>
+
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" placeholder="E-Mail *" required style="font-size:18px; padding: 10px 14px;">
+        </div>
+
+        <div class="form-group">
+          <input type="tel" class="form-control" name="telefon" placeholder="Telefon" style="font-size:18px; padding: 10px 14px;">
+        </div>
+
+        <div class="form-group" style="margin-top: 24px;">
+          <label style="font-size:18px; font-weight: normal;">Komme zur Hochzeit?</label>
+          <div style="margin-top: 10px;">
+            <label style="margin-right: 30px; font-size:18px; font-weight: normal;">
+              <input type="radio" name="attending" value="Ja" required style="margin-right: 6px;">Ja
+            </label>
+            <label style="font-size:18px; font-weight: normal;">
+              <input type="radio" name="attending" value="Nein" style="margin-right: 6px;">Nein
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top: 24px;">
+          <textarea class="form-control" name="dietary" placeholder="Beim Essen bitte beachten (Allergien, vegetarisch etc.)" rows="3" style="font-size:18px; padding: 10px 14px;"></textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="song" placeholder="Ich tanze gerne zu ..." rows="3" style="font-size:18px; padding: 10px 14px;"></textarea>
+        </div>
+
+        <div class="form-group" style="margin-top: 30px;">
+          <button type="submit" id="rsvp-submit" class="btn btn-lg" style="background-color: #c4a0a0; color: white; border: none; padding: 12px 40px; font-size: 18px; letter-spacing: 1px;">
+            Absenden
+          </button>
+        </div>
+
+      </form>
+
+      <div id="rsvp-success" style="display:none; padding: 30px 0;">
+        <h3>Vielen Dank!</h3>
+        <p>Wir haben eure Anmeldung erhalten und freuen uns auf euch!</p>
+      </div>
+
+      <div id="rsvp-error" style="display:none; color: #a00; margin-top: 16px;">
+        <p>Es ist ein Fehler aufgetreten. Bitte versucht es erneut oder meldet euch direkt bei uns.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  var SCRIPT_URL = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+
+  function submitRSVP(event) {
+    event.preventDefault();
+    var form = event.target;
+    var btn = document.getElementById('rsvp-submit');
+    btn.disabled = true;
+    btn.textContent = 'Wird gesendet...';
+
+    var params = new URLSearchParams(new FormData(form));
+
+    fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: params.toString()
+    }).then(function () {
+      document.getElementById('rsvp-form').style.display = 'none';
+      document.getElementById('rsvp-success').style.display = 'block';
+    }).catch(function () {
+      btn.disabled = false;
+      btn.textContent = 'Absenden';
+      document.getElementById('rsvp-error').style.display = 'block';
+    });
+  }
+</script>

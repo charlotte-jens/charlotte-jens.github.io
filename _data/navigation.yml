@@ -9,4 +9,4 @@
 - name: FAQ
   link: /faq
 - name: RSVP
-  modal_id: rsvp-modal
+  link: /rsvp
