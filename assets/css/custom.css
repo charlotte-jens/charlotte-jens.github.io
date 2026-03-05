@@ -7,6 +7,10 @@ p, li, td, dd {
   font-size: 18px;
 }
 
+dd p:empty {
+  display: none;
+}
+
 .billboard {
   height: 360px;
 }

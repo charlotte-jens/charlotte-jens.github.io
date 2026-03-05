@@ -1,12 +1,12 @@
 ---
 layout: info
-title: RSVP
+title: Teilnahme
 billboard_image: assets/img/CSI_5013-banner.png
 image_position: center center
 ---
 
 <section class="container content-section text-center">
-  <h2>RSVP</h2>
+  <h2>Teilnahme</h2>
   <br>
   <div style="max-width: 600px; margin: 0 auto;">
 
@@ -44,6 +44,11 @@ image_position: center center
           <textarea class="form-control" name="song" placeholder="Ich tanze gerne zu ..." rows="3" style="font-size:18px; padding: 10px 14px;"></textarea>
         </div>
 
+        <div class="form-group" style="margin-top: 24px;">
+          <input type="text" class="form-control" id="rsvp-code" placeholder="Einladungscode *" style="font-size:18px; padding: 10px 14px;">
+          <div id="rsvp-code-error" style="display:none; color: #a00; margin-top: 8px; font-size: 16px;">Falscher Code. Bitte schaut auf eure Einladungsnachricht.</div>
+        </div>
+
         <div class="form-group" style="margin-top: 30px;">
           <button type="submit" id="rsvp-submit" class="btn btn-lg" style="background-color: #c4a0a0; color: white; border: none; padding: 12px 40px; font-size: 18px; letter-spacing: 1px;">
             Absenden
@@ -69,6 +74,12 @@ image_position: center center
 
   function submitRSVP(event) {
     event.preventDefault();
+    var code = document.getElementById('rsvp-code').value.trim().toUpperCase();
+    if (code !== 'CORGI26') {
+      document.getElementById('rsvp-code-error').style.display = 'block';
+      return;
+    }
+    document.getElementById('rsvp-code-error').style.display = 'none';
     var form = event.target;
     var btn = document.getElementById('rsvp-submit');
     btn.disabled = true;

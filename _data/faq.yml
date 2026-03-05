@@ -1,6 +1,6 @@
 - question: "Adresse der Feier"
   answer: |
-    Gutshof Rethmar, Gutsstraße 16, 31319 Sehnde / Rethmar
+    Gutshof Rethmar<br>Gutsstraße 16<br>31319 Sehnde / Rethmar
 
 - question: "Anreise"
   answer: |
@@ -20,7 +20,7 @@
 
 - question: "Essen"
   answer: |
-    Gutes Essen liegt uns sehr am Herzen. Bitte gebt im RSVP an, was ihr gerne esst oder was wir beachten sollen, damit wir dies entsprechend einplanen können (Allergien, vegetarisch, vegan etc.).
+    Gutes Essen liegt uns sehr am Herzen. Bitte gebt in der <a href="/rsvp">Teilnahme</a> an, was ihr gerne esst oder was wir beachten sollen, damit wir dies entsprechend einplanen können (Allergien, vegetarisch, vegan etc.).
 
 - question: "Kuchenbuffet"
   answer: |
@@ -56,4 +56,4 @@
 
 - question: "Noch ein paar Kleinigkeiten"
   answer: |
-    <ul><li>Da unsere Sommerhochzeit hoffentlich viel im malerischen Gutspark stattfinden wird, nehmt gerne eine Jacke mit, falls es am Abend kühl wird.</li><li>Luftballons würden wir aus Liebe zur Natur gerne vermeiden — Nachhaltigkeit liegt uns sehr am Herzen.</li><li>Für Wohnwagen und Wohnmobile gibt es einen Stellplatz am Gutshof. Sprecht uns gerne an.</li><li>Bei weiteren Fragen meldet euch bei unseren Trauzeugen oder direkt bei uns.</li></ul>
+    <ul><li>Da unsere Sommerhochzeit hoffentlich viel im malerischen Gutspark stattfinden wird, nehmt gerne eine Jacke mit, falls es am Abend kühl wird.</li><li>Für Wohnwagen und Wohnmobile gibt es einen Stellplatz am Gutshof. Sprecht uns gerne an.</li><li>Bei weiteren Fragen meldet euch bei unseren Trauzeugen oder direkt bei uns.</li></ul>
