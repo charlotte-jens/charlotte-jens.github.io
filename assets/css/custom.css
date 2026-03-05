@@ -1,0 +1,8 @@
+/* Increase baseline font size by 2px */
+body {
+  font-size: 18px;
+}
+
+p, li, td {
+  font-size: 18px;
+}
