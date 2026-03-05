@@ -27,13 +27,13 @@ div.faq-answer {
 .lang-toggle-sep {
   color: white;
 }
-.navbar.top-nav-collapse .lang-toggle-btn,
-.navbar.is-expanded .lang-toggle-btn {
-  color: var(--primary-color, #c4a0a0);
+.navbar-custom.top-nav-collapse .lang-toggle-btn,
+.navbar-custom.is-expanded .lang-toggle-btn {
+  color: var(--primary-text-color);
 }
-.navbar.top-nav-collapse .lang-toggle-sep,
-.navbar.is-expanded .lang-toggle-sep {
-  color: var(--primary-color, #c4a0a0);
+.navbar-custom.top-nav-collapse .lang-toggle-sep,
+.navbar-custom.is-expanded .lang-toggle-sep {
+  color: var(--primary-text-color);
 }
 
 /* Increase baseline font size by 2px */
