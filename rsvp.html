@@ -147,7 +147,12 @@ image_position: center center
     btn.disabled = true;
     btn.textContent = window.weddingLang === 'en' ? 'Sending...' : 'Wird gesendet...';
 
+    var telefonInput = document.querySelector('[name="telefon"]');
+    if (telefonInput && /^\d/.test(telefonInput.value)) {
+      telefonInput.value = "'" + telefonInput.value;
+    }
     var params = new URLSearchParams(new FormData(form));
+    if (telefonInput) telefonInput.value = telefonInput.value.replace(/^'/, '');
 
     fetch(SCRIPT_URL, {
       method: 'POST',
