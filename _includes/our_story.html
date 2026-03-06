@@ -8,7 +8,7 @@
                     <p class="intro-text">
                         {% assign main_event = site.data.events | where: "main_event", true | first %}
                         {% if main_event.date %}
-                            {{ main_event.date | date: '%B %d, %Y' }}
+                            <span id="wedding-date-hover" style="cursor:default; position:relative;">{{ main_event.date | date: '%B %d, %Y' }}<span id="wedding-countdown-tip" style="display:none; position:absolute; bottom:calc(100% + 8px); left:50%; transform:translateX(-50%); background:rgba(255,255,255,0.15); backdrop-filter:blur(4px); color:#fff; padding:4px 12px; border-radius:20px; white-space:nowrap; font-size:0.8em; letter-spacing:1px; pointer-events:none;"></span></span>
                         {% else %}
                             {{ main_event.date_alt }}
                         {% endif %}
@@ -44,3 +44,33 @@
     </div>
 </section>
 {% endfor %}
+
+<script>
+  (function () {
+    var trigger = document.getElementById('wedding-date-hover');
+    var tip = document.getElementById('wedding-countdown-tip');
+    if (!trigger || !tip) return;
+
+    var wedding = new Date('2026-08-15');
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    var days = Math.round((wedding - today) / 86400000);
+
+    trigger.addEventListener('mouseenter', function () {
+      var lang = window.weddingLang || 'de';
+      if (days > 0) {
+        tip.textContent = lang === 'de'
+          ? 'Noch ' + days + (days === 1 ? ' Tag' : ' Tage')
+          : 'Only ' + days + (days === 1 ? ' day left' : ' days left');
+      } else if (days === 0) {
+        tip.textContent = lang === 'de' ? 'Heute ist es so weit! 🎊' : 'Today is the day! 🎊';
+      } else {
+        tip.textContent = lang === 'de' ? 'Was für ein schöner Tag ❤️' : 'What a beautiful day ❤️';
+      }
+      tip.style.display = 'block';
+    });
+    trigger.addEventListener('mouseleave', function () {
+      tip.style.display = 'none';
+    });
+  })();
+</script>
