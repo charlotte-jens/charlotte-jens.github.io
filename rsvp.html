@@ -6,7 +6,7 @@ image_position: center center
 ---
 
 <section class="container content-section text-center">
-  <h2><span class="lang-de">Teilnahme</span><span class="lang-en">Attendance</span></h2>
+  <h2>Répondez s'il vous plaît</h2>
   <br>
   <p>
     <span class="lang-de">Wir freuen uns sehr, diesen besonderen Tag mit euch zu feiern.<br>
@@ -104,6 +104,36 @@ image_position: center center
 <script>
   var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz5EAVZVTMWQQKY51-ifTwKMnohAHdvZhn5ri8550CajJGbhsYjkEyQaAn_gt9DBgPP/exec';
 
+  function launchConfetti() {
+    var count = 60;
+    for (var i = 0; i < count; i++) {
+      (function(i) {
+        setTimeout(function() {
+          var el = document.createElement('span');
+          el.textContent = '🎉';
+          el.style.cssText = [
+            'position:fixed',
+            'top:-40px',
+            'left:' + Math.random() * 100 + 'vw',
+            'font-size:' + (24 + Math.random() * 20) + 'px',
+            'opacity:1',
+            'pointer-events:none',
+            'z-index:9999',
+            'transition:transform ' + (2 + Math.random() * 2) + 's ease-in, opacity 0.5s ease ' + (2.5 + Math.random()) + 's'
+          ].join(';');
+          document.body.appendChild(el);
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() {
+              el.style.transform = 'translateY(' + (window.innerHeight + 80) + 'px) rotate(' + (Math.random() * 360) + 'deg)';
+              el.style.opacity = '0';
+            });
+          });
+          setTimeout(function() { el.remove(); }, 4500);
+        }, i * 60);
+      })(i);
+    }
+  }
+
   function submitRSVP(event) {
     event.preventDefault();
     var code = document.getElementById('rsvp-code').value.trim().toUpperCase();
@@ -126,7 +156,10 @@ image_position: center center
       body: params.toString()
     }).then(function () {
       document.getElementById('rsvp-form').style.display = 'none';
-      document.getElementById('rsvp-success').style.display = 'block';
+      var successEl = document.getElementById('rsvp-success');
+      successEl.style.display = 'block';
+      successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      launchConfetti();
     }).catch(function () {
       btn.disabled = false;
       btn.innerHTML = '<span class="lang-de">Absenden</span><span class="lang-en">Submit</span>';
