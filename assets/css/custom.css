@@ -50,6 +50,15 @@ dd p:empty {
   display: none;
 }
 
+dl dd {
+  margin-bottom: 0;
+}
+
+.faq-answer ul,
+.faq-answer ol {
+  margin-bottom: 0;
+}
+
 .billboard {
   height: 360px;
 }
