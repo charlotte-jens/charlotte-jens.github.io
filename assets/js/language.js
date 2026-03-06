@@ -31,10 +31,10 @@
     window.weddingLang = lang;
 
     document.querySelectorAll('.lang-de').forEach(function (el) {
-      el.style.display = lang === 'de' ? '' : 'none';
+      el.style.display = lang === 'de' ? (el.tagName === 'DIV' ? 'contents' : 'inline') : 'none';
     });
     document.querySelectorAll('.lang-en').forEach(function (el) {
-      el.style.display = lang === 'en' ? '' : 'none';
+      el.style.display = lang === 'en' ? (el.tagName === 'DIV' ? 'contents' : 'inline') : 'none';
     });
 
     // Update nav link text
