@@ -3,7 +3,7 @@
     <div class="col-lg-8">
       {% for one in site.data.faq %}
         <div class="faq-item">
-          <h4 class="faq-q">
+          <h4 class="faq-q"{% if one.hover_emoji %} data-emoji="{{ one.hover_emoji }}"{% endif %}>
             <span class="lang-de">{{ one.question }}</span>
             <span class="lang-en">{{ one.question_en | default: one.question }}</span>
           </h4>

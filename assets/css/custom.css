@@ -52,6 +52,10 @@ p, td {
   margin-bottom: 1.5rem;
 }
 
+h4.faq-q[data-emoji]:hover::after {
+  content: ' ' attr(data-emoji);
+}
+
 h4.faq-q {
   margin-top: 0 !important;
   margin-bottom: 0.5rem !important;
