@@ -39,7 +39,7 @@ body {
   font-size: 18px;
 }
 
-p, li, td, dd {
+p, td {
   font-size: 18px;
 }
 
@@ -47,12 +47,9 @@ p, li, td, dd {
   margin-bottom: 1.5rem;
 }
 
-.faq-q {
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.2rem !important;
+h2.faq-q {
   margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .faq-a ul,
