@@ -1,6 +1,6 @@
 (function () {
   var navTranslations = {
-    '/#ourwedding': { de: 'Unsere Hochzeit', en: 'Our Wedding' },
+    '/': { de: 'Unsere Hochzeit', en: 'Our Wedding' },
     '/location':  { de: 'Location & Ablauf', en: 'Venue & Schedule' },
     '/faq':       { de: 'Details', en: 'Details' },
     '/rsvp':      { de: 'Teilnahme', en: 'Attendance' }
