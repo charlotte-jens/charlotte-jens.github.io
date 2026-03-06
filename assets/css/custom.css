@@ -43,19 +43,22 @@ p, li, td, dd {
   font-size: 18px;
 }
 
-dd p:empty {
-  display: none;
+.faq-item {
+  margin-bottom: 1.5rem;
 }
 
-/* FAQ spacing — fully controlled, language-symmetric */
-dl dt       { margin: 0 !important; padding: 0 !important; }
-dl dd       { margin: 0 !important; padding: 0 !important; }
-dl dd + dt  { margin-top: 1.5rem !important; }
+.faq-q {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem !important;
+  margin-top: 0 !important;
+}
 
-h3.faq-question   { margin: 0 0 0.25rem 0 !important; }
-.faq-answer       { margin: 0 !important; }
-.faq-answer ul,
-.faq-answer ol    { margin-bottom: 0; }
+.faq-a ul,
+.faq-a ol {
+  margin-bottom: 0;
+}
 
 .billboard {
   height: 360px;
