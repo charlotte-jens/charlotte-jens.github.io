@@ -47,10 +47,7 @@ p, td {
   margin-bottom: 1.5rem;
 }
 
-h2.faq-q {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+h4.faq-q {
   margin-top: 0 !important;
   margin-bottom: 0.5rem !important;
 }

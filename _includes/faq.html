@@ -3,10 +3,10 @@
     <div class="col-lg-8">
       {% for one in site.data.faq %}
         <div class="faq-item">
-          <p class="faq-q">
+          <h4 class="faq-q">
             <span class="lang-de">{{ one.question }}</span>
             <span class="lang-en">{{ one.question_en | default: one.question }}</span>
-          </p>
+          </h4>
           <div class="faq-a lang-de">{{ one.answer }}</div>
           <div class="faq-a lang-en">{{ one.answer_en | default: one.answer }}</div>
         </div>
