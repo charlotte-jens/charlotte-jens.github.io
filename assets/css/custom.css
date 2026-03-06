@@ -48,8 +48,19 @@ p, td {
 }
 
 h2.faq-q {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-top: 0 !important;
   margin-bottom: 0.5rem !important;
+}
+
+.faq-a {
+  font-size: 18px;
+}
+
+.faq-a li {
+  font-size: 18px;
 }
 
 .faq-a ul,
