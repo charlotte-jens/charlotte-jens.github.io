@@ -9,7 +9,7 @@
   var pageTitles = {
     '/rsvp':     { de: 'Teilnahme', en: 'Attendance' },
     '/location': { de: 'Location & Ablauf', en: 'Venue & Schedule' },
-    '/faq':      { de: 'Details', en: 'Details' }
+    '/faq':      { de: 'DETAILS', en: 'DETAILS' }
   };
 
   var placeholders = {
@@ -67,7 +67,11 @@
     var titleKey = Object.keys(pageTitles).find(function (k) {
       return path === k || path.endsWith(k);
     });
-    if (titleKey) document.title = pageTitles[titleKey][lang];
+    if (titleKey) {
+      document.title = pageTitles[titleKey][lang];
+      var billboardEl = document.querySelector('h1.billboard-text');
+      if (billboardEl) billboardEl.textContent = pageTitles[titleKey][lang];
+    }
 
     localStorage.setItem('weddingLang', lang);
   }
