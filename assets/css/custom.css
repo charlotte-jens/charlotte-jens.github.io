@@ -5,7 +5,7 @@
 
 
 div.lang-de, div.lang-en {
-  display: contents;
+  display: block;
 }
 
 /* Lang toggle buttons — match nav link appearance */
