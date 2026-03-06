@@ -3,14 +3,6 @@
   display: none;
 }
 
-div.faq-answer {
-  margin-bottom: 0 !important;
-}
-
-.faq-question {
-  margin-top: 0.75rem !important;
-  margin-bottom: 0.25rem !important;
-}
 
 div.lang-de, div.lang-en {
   display: contents;

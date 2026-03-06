@@ -51,7 +51,7 @@
     // Update form placeholders
     var t = placeholders[lang];
     ['telefon', 'dietary', 'song'].forEach(function (f) {
-      var el = document.querySelector('[name="' + f + '"]');
+      var el = document.getElementById('rsvp-' + f) || document.querySelector('[name="' + f + '"]');
       if (el) el.placeholder = t[f];
     });
     var codeEl = document.getElementById('rsvp-code');
