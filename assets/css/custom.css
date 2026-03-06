@@ -39,6 +39,11 @@ body {
   font-size: 18px;
 }
 
+/* Increase nav menu font size */
+.navbar-custom ul {
+  font-size: 16px;
+}
+
 p, td {
   font-size: 18px;
 }
