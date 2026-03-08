@@ -24,7 +24,7 @@
   answer: |
     Hotel und Gutshof sind nur wenige Kilometer voneinander entfernt und es werden Taxen bereitstehen, die euch sicher zum Hotel bringen, wenn die Schuhe durchgetanzt sind. Lasst das Auto also gerne am Hotel stehen.
   answer_en: |
-    The hotel and venue are only a few kilometres apart, and taxis will be available to bring you safely back to the hotel when your shoes are danced through. Feel free to leave your car at the hotel.
+    The hotel and venue are only a few kilometres apart, and taxis will be available to bring you safely back to the hotel until our heels wear through. Feel free to leave your car at the hotel.
 
 - question: "Trauzeugen"
   question_en: "Best Men & Women"
@@ -43,7 +43,7 @@
 - question: "Essen"
   question_en: "Food"
   answer: |
-    Gutes Essen liegt uns sehr am Herzen. Bitte gebt in der <a href="/rsvp">Teilnahme</a> an, was ihr gerne esst oder was wir beachten sollen, damit wir dies entsprechend einplanen können (Allergien, vegetarisch, vegan etc.).
+    Gutes Essen liegt uns sehr am Herzen. Bitte gebt im <a href="/rsvp">Rückmeldeformular</a> an, was ihr gerne esst oder was wir beachten sollen, damit wir dies entsprechend einplanen können (Allergien, vegetarisch, vegan etc.).
   answer_en: |
     Good food is very important to us. Please indicate in your <a href="/rsvp">RSVP</a> what you would like to eat or anything we should take into account (allergies, vegetarian, vegan etc.).
 
@@ -72,9 +72,9 @@
 - question: "Fotos"
   question_en: "Photos"
   answer: |
-    Während der Trauung, sowie für Gruppen- und Familienbilder haben wir die hervorragende Fotografin Britta engagiert. Bitte genießt also den Tag und freut euch auf unbeschwerte Eindrücke im Anschluss.
+    Während der Trauung, sowie für Gruppen- und Familienbilder haben wir die hervorragende Fotografin Britta engagiert. Bitte genießt also den handyfreien Tag und freut euch auf unbeschwerte Eindrücke im Anschluss.
   answer_en: |
-    For the ceremony, as well as group and family photos, we have engaged the excellent photographer Britta. So please enjoy the day and look forward to wonderful memories afterwards.
+    For the ceremony, as well as group and family photos, we have engaged the excellent photographer Britta. So please set your phones aside, soak up every moment, and look forward to beautiful memories.
 
 - question: "Beiträge, Spiele & Ideen"
   question_en: "Contributions, Games & Ideas"
@@ -95,7 +95,7 @@
   answer: |
     Unsere standesamtliche Trauung wird bereits am 07. Juni an unserem Herzensort Stockholm im engsten Kreis stattfinden.
   answer_en: |
-    Our civil ceremony will take place on 7 June at our beloved Stockholm, with just our nearest and dearest.
+    Our civil ceremony will take place on 7 June in our beloved Stockholm, with just our nearest and dearest.
 
 - question: "Noch ein paar Kleinigkeiten"
   question_en: "A Few More Things"
