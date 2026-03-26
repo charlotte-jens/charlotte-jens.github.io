@@ -6,14 +6,17 @@
           <h4 class="faq-q"{% if one.hover_emoji %} data-emoji="{{ one.hover_emoji }}"{% endif %}>
             <span class="lang-de">{{ one.question }}</span>
             <span class="lang-en">{{ one.question_en | default: one.question }}</span>
+            <span class="lang-tw">{{ one.question_tw | default: one.question }}</span>
           </h4>
           <div class="faq-a lang-de">{{ one.answer }}</div>
           <div class="faq-a lang-en">{{ one.answer_en | default: one.answer }}</div>
+          <div class="faq-a lang-tw">{{ one.answer_tw | default: one.answer }}</div>
         </div>
       {% endfor %}
       <p style="margin-top: 2rem; font-size: 0.9em; color: #888;">
         <span class="lang-de">* Nein, wir haben uns noch nicht auf den Nachnamen geeinigt 😉</span>
         <span class="lang-en">* No, we haven't agreed on the last name yet 😉</span>
+        <span class="lang-tw">* 不，我們還沒有就姓氏達成共識 😉</span>
       </p>
     </div>
   </div>

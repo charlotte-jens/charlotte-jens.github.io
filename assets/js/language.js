@@ -1,15 +1,15 @@
 (function () {
   var navTranslations = {
-    '/': { de: 'Unsere Hochzeit', en: 'Our Wedding' },
-    '/location':  { de: 'Location & Ablauf', en: 'Venue & Schedule' },
-    '/faq':       { de: 'Details', en: 'Details' },
-    '/rsvp':      { de: 'Teilnahme', en: 'Attendance' }
+    '/': { de: 'Unsere Hochzeit', en: 'Our Wedding', tw: '我們的婚禮' },
+    '/location':  { de: 'Location & Ablauf', en: 'Venue & Schedule', tw: '地點與流程' },
+    '/faq':       { de: 'Details', en: 'Details', tw: '詳情' },
+    '/rsvp':      { de: 'Teilnahme', en: 'Attendance', tw: '出席回覆' }
   };
 
   var pageTitles = {
-    '/rsvp':     { de: 'Teilnahme', en: 'Attendance' },
-    '/location': { de: 'Location & Ablauf', en: 'Venue & Schedule' },
-    '/faq':      { de: 'DETAILS', en: 'DETAILS' }
+    '/rsvp':     { de: 'Teilnahme', en: 'Attendance', tw: '出席回覆' },
+    '/location': { de: 'Location & Ablauf', en: 'Venue & Schedule', tw: '地點與流程' },
+    '/faq':      { de: 'DETAILS', en: 'DETAILS', tw: '詳情' }
   };
 
   var placeholders = {
@@ -24,17 +24,22 @@
       dietary: 'Dietary requirements (allergies, vegetarian etc.)',
       song:    'Songs that get my hips moving',
       code:    'Invitation code *'
+    },
+    tw: {
+      telefon: '電話',
+      dietary: '飲食需求（過敏、素食等）',
+      song:    '讓我想跳舞的歌',
+      code:    '邀請碼 *'
     }
   };
 
   function setLanguage(lang) {
     window.weddingLang = lang;
 
-    document.querySelectorAll('.lang-de').forEach(function (el) {
-      el.style.display = lang === 'de' ? (el.tagName === 'DIV' ? 'block' : 'inline') : 'none';
-    });
-    document.querySelectorAll('.lang-en').forEach(function (el) {
-      el.style.display = lang === 'en' ? (el.tagName === 'DIV' ? 'block' : 'inline') : 'none';
+    ['de', 'en', 'tw'].forEach(function (l) {
+      document.querySelectorAll('.lang-' + l).forEach(function (el) {
+        el.style.display = lang === l ? (el.tagName === 'DIV' ? 'block' : 'inline') : 'none';
+      });
     });
 
     // Update nav link text
@@ -85,7 +90,9 @@
     li.innerHTML =
       '<button class="lang-toggle-btn" data-lang="de" onclick="window.setWeddingLang(\'de\')">DE</button>' +
       '<span class="lang-toggle-sep" style="margin:0 2px;">|</span>' +
-      '<button class="lang-toggle-btn" data-lang="en" onclick="window.setWeddingLang(\'en\')">EN</button>';
+      '<button class="lang-toggle-btn" data-lang="en" onclick="window.setWeddingLang(\'en\')">EN</button>' +
+      '<span class="lang-toggle-sep" style="margin:0 2px;">|</span>' +
+      '<button class="lang-toggle-btn" data-lang="tw" onclick="window.setWeddingLang(\'tw\')">TW</button>';
     navList.appendChild(li);
   }
 

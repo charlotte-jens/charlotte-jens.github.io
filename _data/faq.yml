@@ -1,105 +1,150 @@
 - question: "Adresse der Feier"
   question_en: "Venue Address"
+  question_tw: "婚禮地點"
   answer: |
     Gutshof Rethmar<br>Gutsstraße 16<br>31319 Sehnde / Rethmar
   answer_en: |
+    Gutshof Rethmar<br>Gutsstraße 16<br>31319 Sehnde / Rethmar
+  answer_tw: |
     Gutshof Rethmar<br>Gutsstraße 16<br>31319 Sehnde / Rethmar
 
 - question: "Anreise"
   question_en: "Getting There"
+  question_tw: "前往方式"
   answer: |
     Für unsere weitangereisten Gäste ist ein Flug nach Hannover (HAJ) möglich. Von dort aus empfehlen wir euch ein Taxi direkt zum Hotel bzw. zur Feierlocation in Rethmar.<br>Alternativ kann auch die Bahn zum Hannover Hauptbahnhof genommen werden. Von dort aus empfehlen wir euch ebenfalls ein Taxi.<br>Der Gutshof bietet selbst große Parkflächen auch mit E-Lademöglichkeit.
   answer_en: |
     For guests travelling from afar, a flight to Hannover (HAJ) is possible. From there we recommend a taxi directly to the hotel or the venue in Rethmar.<br>Alternatively, you can take the train to Hannover main station. From there we also recommend a taxi.<br>The Gutshof itself offers large parking areas, including EV charging stations.
+  answer_tw: |
+    遠道而來的賓客可搭乘飛機前往漢諾威（HAJ）。我們建議從機場搭計程車直接前往 Rethmar 的飯店或婚禮場地。<br>也可搭乘火車至漢諾威中央車站，再轉乘計程車。<br>Gutshof 本身備有大型停車場，並設有電動車充電設施。
 
 - question: "Unterkunft"
   question_en: "Accommodation"
+  question_tw: "住宿"
   answer: |
     Aufgrund der Nähe zu Hannover und Sehnde gibt es einige Unterkünfte in der Region. Da sich viele kennen und auch am nächsten Morgen noch ein gemeinsames Frühstück stattfindet, haben wir ein Kontingent im <a href="https://www.apart-hotel-sehnde.de/" target="_blank">ApartHotel Sehnde</a> reserviert:<ul><li>Doppelzimmer inkl. Frühstück — 90 €/Nacht</li><li>Dreibettzimmer inkl. Frühstück — 110 €/Nacht</li><li>Vierbettzimmer inkl. Frühstück — 130 €/Nacht</li></ul>Bitte bucht unter dem Stichwort <strong>„Hochzeit Oehlen"*</strong> — Reservierungsfrist: 14. Juli 2026 (1 Monat vorher).<br>Early Check-in ab 10 Uhr ist für 40 € möglich. Zahlung per Bargeld, Kreditkarte oder EC-Karte.
   answer_en: |
     Given the proximity to Hannover and Sehnde, there are several accommodation options in the area. Since many guests know each other and a joint breakfast is planned for Sunday morning, we have reserved rooms at the <a href="https://www.apart-hotel-sehnde.de/" target="_blank">ApartHotel Sehnde</a>:<ul><li>Double room incl. breakfast — €90/night</li><li>Triple room incl. breakfast — €110/night</li><li>Quad room incl. breakfast — €130/night</li></ul>Please book under the keyword <strong>"Hochzeit Oehlen"*</strong> — reservation deadline: 14 July 2026 (1 month prior).<br>Early check-in from 10 am is available for €40. Payment by cash, credit card or debit card.
+  answer_tw: |
+    由於鄰近漢諾威和 Sehnde，周邊有多種住宿選擇。因許多賓客彼此相識，且翌日早上將舉行共同早餐，我們已在 <a href="https://www.apart-hotel-sehnde.de/" target="_blank">ApartHotel Sehnde</a> 預留房間：<ul><li>雙人房含早餐 — 90歐元/晚</li><li>三人房含早餐 — 110歐元/晚</li><li>四人房含早餐 — 130歐元/晚</li></ul>請以關鍵字 <strong>「Hochzeit Oehlen」*</strong> 預訂 — 訂房截止日期：2026年7月14日（婚禮前一個月）。<br>早入住（10時起）需額外支付40歐元，可使用現金、信用卡或金融卡付款。
 
 - question: "Rückfahrt"
   question_en: "Return Journey"
+  question_tw: "返程"
   answer: |
     Hotel und Gutshof sind nur wenige Kilometer voneinander entfernt und es werden Taxen bereitstehen, die euch sicher zum Hotel bringen, wenn die Schuhe durchgetanzt sind. Lasst das Auto also gerne am Hotel stehen.
   answer_en: |
     The hotel and venue are only a few kilometres apart, and taxis will be available to bring you safely back to the hotel until our heels wear through. Feel free to leave your car at the hotel.
+  answer_tw: |
+    飯店與婚禮場地相距僅數公里，當舞步不停之際，將有計程車恭候，安全送您返回飯店。請放心將車停在飯店。
 
 - question: "Trauzeugen"
   question_en: "Best Men & Women"
+  question_tw: "伴郎伴娘"
   answer: |
     Für Fragen und Anliegen meldet euch gerne bei unseren reizenden Trauzeugen:<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul>
   answer_en: |
     For questions and requests, please get in touch with our lovely witnesses:<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul>
+  answer_tw: |
+    如有任何問題或需求，歡迎聯繫我們可愛的證婚人：<br><br><img src="/assets/img/team.png" style="width: 100%; height: auto; margin: 10px 0;"><br><ul><li>Jan Philipp — jan.philipp.rauprich[at]gmail.com</li><li>Luisa — luisa.hieckel[at]gmail.com</li><li>Zoe — zoe.lguillou[at]gmail.com</li></ul>
 
 - question: "Dresscode"
   question_en: "Dress Code"
+  question_tw: "服裝規定"
   answer: |
     Elegant und festlich. Gerne in Farben, die zu einer Sommerhochzeit passen.
   answer_en: |
     Elegant and festive. Colours that suit a summer wedding are very welcome.
+  answer_tw: |
+    優雅正式。歡迎穿著適合夏日婚禮的色系。
 
 - question: "Essen"
   question_en: "Food"
+  question_tw: "餐飲"
   answer: |
     Gutes Essen liegt uns sehr am Herzen. Bitte gebt im <a href="/rsvp">Rückmeldeformular</a> an, was ihr gerne esst oder was wir beachten sollen, damit wir dies entsprechend einplanen können (Allergien, vegetarisch, vegan etc.).
   answer_en: |
     Good food is very important to us. Please indicate in your <a href="/rsvp">RSVP</a> what you would like to eat or anything we should take into account (allergies, vegetarian, vegan etc.).
+  answer_tw: |
+    美食對我們非常重要。請在<a href="/rsvp">回覆表單</a>中告知您的飲食偏好或需注意事項（過敏、素食、純素等），以便我們妥善安排。
 
 - question: "Kuchenbuffet"
   hover_emoji: "🤤"
   question_en: "Cake Buffet"
+  question_tw: "蛋糕自助餐"
   answer: |
     Da wir uns ein buntes Kuchenbuffet wünschen, freuen wir uns über alle, die dazu etwas beitragen möchten. Zur Koordination meldet euch bitte bei Kuchenliebhaberin Nr. 1 Charlotte direkt: sprengel.charlotte[at]gmail.com
   answer_en: |
     We would love to have a colourful cake buffet, so we are delighted if anyone would like to contribute. To coordinate, please contact cake-lover No. 1 Charlotte directly: sprengel.charlotte[at]gmail.com
+  answer_tw: |
+    我們希望有豐富多彩的蛋糕自助餐，非常歡迎有意貢獻的賓客。如需協調，請直接聯繫蛋糕愛好者第一號 Charlotte：sprengel.charlotte[at]gmail.com
 
 - question: "Frühstück am Sonntag"
   question_en: "Sunday Breakfast"
+  question_tw: "週日早餐"
   answer: |
     Mit allen Gästen, die im ApartHotel in Sehnde unterkommen und Lust haben, möchten wir gerne am Sonntagmorgen gemeinsam frühstücken.
   answer_en: |
     With all guests staying at the ApartHotel in Sehnde who would like to join, we would love to have a joint breakfast on Sunday morning.
+  answer_tw: |
+    我們希望與所有入住 Sehnde ApartHotel 且有意參加的賓客，在週日早上一起享用早餐。
 
 - question: "Geschenke"
   question_en: "Gifts"
+  question_tw: "禮物"
   answer: |
     Wir freuen uns sehr, dass so viele unserer Freunde und Familie von überall her anreisen, um diesen besonderen Tag gemeinsam zu feiern! Falls ihr uns zusätzlich etwas schenken mögt, freuen wir uns über einen Obolus, damit wir uns unser erstes gemeinsames Zuhause schön machen können.
   answer_en: |
     We are so happy that so many of our friends and family are travelling from near and far to celebrate this special day with us! If you would like to give us something, we would be delighted with a contribution towards making our first home together a beautiful one.
+  answer_tw: |
+    我們非常感動，這麼多親友不遠千里趕來共慶這特別的一天！若您希望送上禮物，我們非常感謝您為我們的第一個共同家園所給予的心意。
 
 - question: "Fotos"
   question_en: "Photos"
+  question_tw: "照片"
   answer: |
     Während der Trauung, sowie für Gruppen- und Familienbilder haben wir die hervorragende Fotografin Britta engagiert. Bitte genießt also den handyfreien Tag und freut euch auf unbeschwerte Eindrücke im Anschluss.
   answer_en: |
     For the ceremony, as well as group and family photos, we have engaged the excellent photographer Britta. So please set your phones aside, soak up every moment, and look forward to beautiful memories.
+  answer_tw: |
+    我們聘請了出色的攝影師 Britta 負責儀式及合照拍攝。請放下手機，全心享受當下，靜待美好的回憶。
 
 - question: "Beiträge, Spiele & Ideen"
   question_en: "Contributions, Games & Ideas"
+  question_tw: "節目、遊戲與創意"
   answer: |
     Unsere Trauzeugen helfen euch bei Fragen und Anregungen gerne weiter.
   answer_en: |
     Our witnesses will be happy to help with any questions or suggestions.
+  answer_tw: |
+    如有任何問題或建議，我們的證婚人將樂意為您提供協助。
 
 - question: "Warum Rethmar? "
   question_en: "Why Rethmar?"
+  question_tw: "為何選擇 Rethmar？"
   answer: |
     Rethmar ist ein idyllischer, ländlicher Ortsteil der Stadt Sehnde in Niedersachsen mit etwa 2 150 Einwohnern und liegt ruhig eingebettet zwischen Feldern, Wiesen und dem Mittellandkanal südöstlich von Hannover. Er liegt damit in der nähe von Charlottes Heimat Bettrum.
   answer_en: |
     Rethmar is an idyllic, rural district of the town of Sehnde in Lower Saxony with around 2,150 inhabitants, nestled peacefully among fields, meadows and the Mittellandkanal southeast of Hannover — close to Charlotte's home town of Bettrum.
+  answer_tw: |
+    Rethmar 是下薩克森州 Sehnde 市一個風景如畫的鄉村地區，約有2,150名居民，靜靜地坐落於漢諾威東南方的田野、草地與中德運河之間——就在 Charlotte 的家鄉 Bettrum 附近。
 
 - question: "Standesamtliche Trauung"
   question_en: "Civil Ceremony"
+  question_tw: "民事婚禮"
   answer: |
     Unsere standesamtliche Trauung wird bereits am 07. Juni an unserem Herzensort Stockholm im engsten Kreis stattfinden.
   answer_en: |
     Our civil ceremony will take place on 7 June in our beloved Stockholm, with just our nearest and dearest.
+  answer_tw: |
+    我們的民事婚禮將於6月7日在我們摯愛的斯德哥爾摩舉行，僅與至親好友共同見證。
 
 - question: "Noch ein paar Kleinigkeiten"
   question_en: "A Few More Things"
+  question_tw: "其他小事項"
   answer: |
     <ul><li>Da unsere Sommerhochzeit hoffentlich viel im malerischen Gutspark stattfinden wird, nehmt gerne eine Jacke mit, falls es am Abend kühl wird.</li><li>Für Wohnwagen und Wohnmobile gibt es einen Stellplatz am Gutshof. Sprecht uns gerne an.</li><li>Bei weiteren Fragen meldet euch bei unseren Trauzeugen oder direkt bei uns.</li></ul>
   answer_en: |
     <ul><li>Since our summer wedding will hopefully take place largely in the picturesque Gutspark, please bring a jacket in case it gets cool in the evening.</li><li>There is a pitch for camper vans and motorhomes at the Gutshof — please let us know if you would like to use this option.</li><li>For any further questions, please contact our witnesses or reach out to us directly.</li></ul>
+  answer_tw: |
+    <ul><li>由於我們的夏日婚禮希望多在美麗的 Gutspark 中舉行，若傍晚轉涼，請記得帶上外套。</li><li>Gutshof 設有露營車停車位，如有需要請告知我們。</li><li>如有其他問題，請聯繫我們的證婚人或直接與我們聯繫。</li></ul>
